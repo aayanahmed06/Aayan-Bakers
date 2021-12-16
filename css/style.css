@@ -1,0 +1,102 @@
+
+ /* nav section  */
+nav{
+    display:flex;
+    flex-direction: column;
+    position:relative;
+}
+#nav-img img{
+    width: 100%;
+    position:relative;        
+}
+
+.nav-headings{
+    position: absolute;
+    margin-left:300px;
+    margin-top: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.learn-more-link a{
+    display: flex;
+    position:absolute;
+    text-decoration: none;
+    color: white;
+    border:1px white solid;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left:100px;
+}
+.learn-more-link a:hover{
+    background-color:black;
+    color: white;
+}
+.contact-us-link a{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    border:1px white solid;
+    padding: 20px;
+    border-radius: 10px;  
+}
+
+.contact-us-link a:hover{
+    background-color:black;
+    color: white;
+}
+/* nav section end  */
+
+ /* main section start  */
+
+  /* introduction section  */
+ #introduction{
+    position: relative;
+ }
+ .introduction-img img{
+     margin: 40px;
+     display: flex;
+     flex-direction: column;
+     position:absolute;
+ }
+
+ .introduction-heading{
+     margin-left: 600px;
+     display: flex;
+     position: relative;
+
+     
+ }
+.introduction-text{
+   margin-left: 400px;
+   position: relative;
+   
+}
+
+/* end of introduction section  */
+
+/* location section start  */
+
+#location{
+    margin: 200px;
+}
+
+.location-heading{
+    position: absolute;
+    display: flex;
+    flex-direction:column;
+    margin-left: 100px;
+    text-align: center;
+}
+.location-text {
+    margin-top: 10px;
+}
+
+.location-img{
+ position:relative;
+ margin-left:600px;
+}
+
+/* location section end  */
